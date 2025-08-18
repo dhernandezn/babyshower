@@ -1,3 +1,7 @@
+<?php
+$mensaje ="Hola! Confirmo mi asistencia al baby shower de la Aurora 🦊";
+$url = "https://wa.me/56978924471?text=" . urlencode($mensaje);
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,9 +30,13 @@
     </div>
 
     <button onclick="window.open('https://maps.app.goo.gl/sERcHVHf8gPk5voSA', '_blank')">📍 Ver ubicación</button>
-    <button onclick="window.open('https://wa.me/56983345231?text=Confirmo%20asistencia%20al%20baby%20shower%20de%20Aurora', '_blank')">✅ Confirma asistencia</button>
-
+    <button onclick="window.open('<?php echo $url?>', '_blank')">✅ Confirma asistencia</button>
     <p style="margin-top:2em;">¡Te esperamos con amor!<br><strong>DANY Y MICHU</strong></p>
   </div>
 </body>
+<!-- footer.php -->
+<footer style="text-align: center; margin-top: 50px; font-family: Arial, sans-serif; color: #555;">
+  <p>DAHN</p>
+</footer>
+
 </html>
