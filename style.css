@@ -54,3 +54,8 @@
     audio {
       display: none;
     }
+    @media (max-width: 768px) {
+    .activar-musica {
+        display: block;
+    }
+}
