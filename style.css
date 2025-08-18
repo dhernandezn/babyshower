@@ -1,0 +1,56 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('fondo1.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #444;
+      margin: 0;
+      padding: 2em;
+      text-align: center;
+    }
+    .card {
+        max-width: 600px;
+        margin: auto;
+        background: 
+            linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.85)),
+            url('fondo1.png') no-repeat center center fixed;
+        background-size: cover;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.2);
+        padding: 2em;
+    }
+    h1 {
+      color: #4c7535;
+      font-size: 3em;
+    }
+    h1, p {
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+    .banner {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #c04c91;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    .details {
+      margin: 1.5em 0;
+      font-weight: bold;
+    }
+    button {
+      background: #4c7535;
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      margin: 0.5em;
+    }
+    button:hover {
+      background: #c04c91;
+    }
+    audio {
+      display: none;
+    }
